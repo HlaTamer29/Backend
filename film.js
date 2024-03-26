@@ -30,7 +30,7 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) => {
-    res.send('Hello World! ')
+    res.send('Hello World!  ')
 });
 
 app.put('/hala', (req, res) => {
